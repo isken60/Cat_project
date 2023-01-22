@@ -1,0 +1,371 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/background.png");
+}
+#main-block {
+  width: 100%;
+  height: 100%;
+}
+#feed {
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+  margin: 0 auto;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+
+.all-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 24px;
+}
+/* СИНИЙ КОТ НАЧАЛО */
+#blue {
+  box-sizing: border-box;
+  width: 320px;
+  height: 480px;
+  background-color: #f2f2f2;
+  text-align: center;
+  clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+  border-radius: 12px;
+  border: 4px solid #1698d9;
+}
+#blue p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  font-family: "Trebuchet MS";
+  margin: 15px;
+}
+#blue h1 {
+  font-weight: 700;
+  font-size: 48px;
+  font-family: "Trebuchet MS";
+  margin: 5px;
+}
+#blue h4 {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Trebuchet MS";
+  margin-top: 5px;
+  margin-right: 90px;
+  margin-bottom: 15px;
+}
+#blue_1 {
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 14px;
+  color: #666666;
+  margin-right: 130px;
+}
+#blue_2 {
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 14px;
+  color: #666666;
+  margin-right: 85px;
+}
+#blue img {
+  margin-top: 25px;
+  margin-left: -28px;
+}
+#blue_cat__quantity {
+  position: relative;
+}
+#blue_quantity {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #2ea8e6;
+  font-family: "Trebuchet MS";
+  color: #ffffff;
+  width: 80px;
+  height: 80px;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 190px;
+  left: 220px;
+}
+#blue_quantity__span1 {
+  font-family: "Trebuchet MS";
+  font-weight: 400;
+  font-size: 42px;
+  display: flex;
+  align-items: baseline;
+  color: #ffffff;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+#blue_quantity__span2 {
+  display: flex;
+  font-family: "Trebuchet MS";
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+  margin-right: 28px;
+}
+#blue_p__last {
+  color: white;
+  font-family: "Trebuchet MS";
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  position: absolute;
+  top: 490px;
+  left: 50px;
+}
+a {
+  color: #22a7e9;
+}
+#blue_connect__p {
+  position: relative;
+}
+/* СИНИЙ КОТ КОНЕЦ */
+
+/* РОЗОВЫЙ КОТ НАЧАЛО */
+#purple {
+  box-sizing: border-box;
+  width: 320px;
+  height: 480px;
+  background-color: #f2f2f2;
+  text-align: center;
+  clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+  border-radius: 12px;
+  border: 4px solid #d91667;
+  position: relative;
+}
+#purple p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  font-family: "Trebuchet MS";
+  margin: 15px;
+}
+#purple h1 {
+  font-weight: 700;
+  font-size: 48px;
+  font-family: "Trebuchet MS";
+  margin: 5px;
+}
+#purple h4 {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Trebuchet MS";
+  margin-top: 5px;
+  margin-right: 110px;
+  margin-bottom: 15px;
+}
+#purple_1 {
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 14px;
+  color: #666666;
+  margin-right: 130px;
+}
+#purple_2 {
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 14px;
+  color: #666666;
+  margin-right: 75px;
+}
+#purple img {
+  margin-top: 25px;
+  margin-left: -28px;
+}
+#purple_cat__quantity {
+  position: relative;
+}
+#purple_quantity {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #d91667;
+  font-family: "Trebuchet MS";
+  color: #ffffff;
+  width: 80px;
+  height: 80px;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 190px;
+  left: 220px;
+}
+#purple_quantity__span1 {
+  font-family: "Trebuchet MS";
+  font-weight: 400;
+  font-size: 42px;
+  display: flex;
+  align-items: baseline;
+  color: #ffffff;
+  margin-right: 27px;
+  margin-top: 5px;
+}
+#purple_quantity__span2 {
+  display: flex;
+  font-family: "Trebuchet MS";
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+  margin-right: 28px;
+}
+#purple_p__last {
+  color: white;
+  font-family: "Trebuchet MS";
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  position: absolute;
+  top: 490px;
+  left: 5px;
+}
+#purple_connect__p {
+  position: relative;
+}
+/* РОЗОВЫЙ КОТ КОНЕЦ */
+/* СЕРЫЙ КОТ НАЧАЛО */
+#grey {
+  box-sizing: border-box;
+  width: 320px;
+  height: 480px;
+  background-color: #f2f2f2;
+  text-align: center;
+  clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+  border-radius: 12px;
+  border: 4px solid #b3b3b3;
+  position: relative;
+}
+#grey p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  font-family: "Trebuchet MS";
+  margin: 15px;
+  opacity: 0.4;
+}
+#grey h1 {
+  font-weight: 700;
+  font-size: 48px;
+  font-family: "Trebuchet MS";
+  margin: 5px;
+  opacity: 0.4;
+}
+#grey h4 {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Trebuchet MS";
+  margin-top: 5px;
+  margin-right: 120px;
+  margin-bottom: 15px;
+  opacity: 0.4;
+}
+#grey_1 {
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 14px;
+  color: #666666;
+  margin-right: 130px;
+  opacity: 0.4;
+}
+#grey_2 {
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 14px;
+  color: #666666;
+  margin-right: 75px;
+  opacity: 0.4;
+}
+#grey_3 {
+  font-family: "Trebuchet MS";
+  font-weight: 700;
+  font-size: 14px;
+  color: #666666;
+  margin-right: 85px;
+  opacity: 0.4;
+}
+#grey img {
+  margin-top: 10px;
+  margin-left: -28px;
+  opacity: 0.4;
+}
+
+#grey_quantity {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #b3b3b3;
+  font-family: "Trebuchet MS";
+  color: #ffffff;
+  width: 80px;
+  height: 80px;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 380px;
+  left: 222px;
+}
+#grey_quantity__span1 {
+  font-family: "Trebuchet MS";
+  font-weight: 400;
+  font-size: 42px;
+  display: flex;
+  align-items: baseline;
+  color: #ffffff;
+  margin-right: 27px;
+  margin-top: 5px;
+}
+#grey_quantity__span2 {
+  display: flex;
+  font-family: "Trebuchet MS";
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+  margin-right: 28px;
+}
+#grey_p__last {
+  color: #ffff66;
+  font-family: "Trebuchet MS";
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  position: absolute;
+  top: 490px;
+  left: 70px;
+}
+#grey_connect__p {
+  position: relative;
+}
+/* СЕРЫЙ КОТ КОНЕЦ */
+
+/* !========== АДАПТИВКА ============ */
+@media all and (max-width: 1000px) {
+  .all-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media all and (max-width: 959px) {
+  #grey_connect__p {
+    margin-top: 70px;
+  }
+}
+@media all and (max-width: 639px) {
+  #purple_connect__p {
+    margin-top: 70px;
+  }
+}
+@media all and (max-width: 370px) {
+  body {
+    margin-left: 40px;
+  }
+}
+/* !========= АДАПТИВКА КОНЕЦ ========= */
